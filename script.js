@@ -7,6 +7,8 @@ document.querySelector('.score').textContent='10';
 document.querySelector('.guess').textContent='10';
 console.log(document.querySelector('.guess').value)
 */
+const number= Math.random();
+
 document.querySelector('.check').addEventListener('click', function () {
   const guess= Number(document.querySelector('.guess').value);
   console.log(guess);

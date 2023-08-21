@@ -15,6 +15,9 @@ document.querySelector('.check').addEventListener('click', function () {
   console.log(guess);
   if(!guess){
     document.querySelector('.message').textContent='⛔ No Number !';
-  }else if(guess===secretNumber)
+  }else if(guess===secretNumber){
+    document.querySelector('.message').textContent='🎉Correct Number';
+
+  }
 
 });
